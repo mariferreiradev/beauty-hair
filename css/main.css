@@ -73,6 +73,7 @@
 }
 .hero-img {
     padding: 0 72px 0 0;
+    align-self: flex-end;
 }
 .hero-img img {
     width: 100%;
@@ -140,12 +141,16 @@
     gap: 20px;
     margin-top: 24px;
 }
-.location {
-    padding: 96px 72px 48px 72px ;
+#location-container {
     background-color: #F5EEEE;
+}
+.location {
+    padding: 96px 72px 48px 72px;
 }
 #footer-container {
     background-color: #EA21A2;
+}
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,4 +165,20 @@
 }
 .footer-logocopy span {
     display: block;
+}
+
+@media (min-width: 640px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1280px) {
+
+}
+@media (min-width: 1536px) {
+
 }
